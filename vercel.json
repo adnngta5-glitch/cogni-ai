@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "ders_kocu.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "ders_kocu.py"
+    }
+  ]
+}
